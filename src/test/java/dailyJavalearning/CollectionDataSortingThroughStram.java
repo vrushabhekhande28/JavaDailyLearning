@@ -29,6 +29,7 @@ public class CollectionDataSortingThroughStram
 	list.add( new CollectionDataSortingThroughStram(1,"Div", "pune" , 4000));
 	list.add(new CollectionDataSortingThroughStram(1,"ope", "pune" , 5000));
 	
+	// find the values who has more than 1000
 	list.stream().filter(p-> p.price>1000).forEach(po->System.out.println(po.price));
 
   }
