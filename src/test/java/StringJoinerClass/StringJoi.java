@@ -1,5 +1,6 @@
 package StringJoinerClass;
 
-public class StringJoi {
+public class StringJoi 
+{
 
 }
