@@ -83,6 +83,7 @@ public class FlatMamClassTest
 	   List<String> d = list.stream().
 			                       flatMap(s-> s.stream().map(s1-> s1.nameOFTheproduct)).collect(Collectors.toList());
 
+
 	   System.out.println(d);
   
   }   
